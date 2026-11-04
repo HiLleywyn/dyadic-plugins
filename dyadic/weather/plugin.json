@@ -1,0 +1,27 @@
+{
+  "id": "weather",
+  "name": "Weather",
+  "description": "Forecasts, official alerts and specialized weather data, with source attribution.",
+  "version": "1.0.0",
+  "icon": "bolt",
+  "color": "amber",
+  "tool": "weather.*",
+  "aliases": [
+    "weather"
+  ],
+  "abilities": [
+    "Forecasts reuse NWS, MET Norway and DWD",
+    "Recent US station observations and active alerts",
+    "Licensed global history, model forecasts, marine waves and air quality when configured"
+  ],
+  "permissions": [
+    "Sends requested locations to weather providers",
+    "Advanced Open-Meteo products require a licensed key and explicit operator enablement"
+  ],
+  "changes": [
+    {
+      "version": "1.0.0",
+      "notes": "Official deferred tools, on by default. Load only when needed; turn off in the Store."
+    }
+  ]
+}

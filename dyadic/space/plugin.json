@@ -1,0 +1,27 @@
+{
+  "id": "space",
+  "name": "Space",
+  "description": "Find NASA media, astronomy pictures and upcoming space launches.",
+  "version": "1.0.0",
+  "icon": "rocket",
+  "color": "amber",
+  "tool": "space.*",
+  "aliases": [
+    "space"
+  ],
+  "abilities": [
+    "Search NASA media with source credits",
+    "Discover provisional launch schedules",
+    "Read astronomy pictures through NASA Science APOD"
+  ],
+  "permissions": [
+    "Sends requested space topics to the selected provider",
+    "Media copyright and provider quotas still apply"
+  ],
+  "changes": [
+    {
+      "version": "1.0.0",
+      "notes": "Official deferred tools, on by default. Load only when needed; turn off in the Store."
+    }
+  ]
+}

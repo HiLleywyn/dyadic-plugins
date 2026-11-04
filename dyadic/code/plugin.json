@@ -1,0 +1,37 @@
+{
+  "id": "code",
+  "name": "Code Sandbox",
+  "description": "Files and folders in your workspace, and an network-isolated sandbox to write and run code.",
+  "version": "1.2.0",
+  "icon": "terminal",
+  "color": "green",
+  "tool": "workspace.*",
+  "aliases": [
+    "sandbox"
+  ],
+  "abilities": [
+    "Creates, reads and changes files and folders in your workspace",
+    "Runs Python and shell scripts in an network-isolated sandbox",
+    "Clones public Git repositories to read",
+    "Moves files between your Workspace files and its workspace: opens what you attach or receive, and sends you what it makes",
+    "Unpacks and packs archives (ZIP, tar.gz, RAR, 7z and more) safely, in the sandbox: nothing leaves the folder and nothing runs"
+  ],
+  "permissions": [
+    "Works only in your own private workspace, with no network while code runs",
+    "Asks before deleting files, and before changing them once it has read outside content"
+  ],
+  "changes": [
+    {
+      "version": "1.2.0",
+      "notes": "Clarifies server-side network isolation and adds strictly read-only workspace inspection."
+    },
+    {
+      "version": "1.1.0",
+      "notes": "Files you attach or receive can be opened in its workspace, and what it makes sent to you; archives unpacked and packed safely."
+    },
+    {
+      "version": "1.0.0",
+      "notes": "Now a plugin in the Store, on for everyone. Turn it off here when you don't want it."
+    }
+  ]
+}

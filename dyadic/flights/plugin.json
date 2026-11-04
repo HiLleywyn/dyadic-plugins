@@ -1,0 +1,8 @@
+{
+  "id": "flights", "name": "Flight Observations", "version": "1.0.0",
+  "description": "FlyItalyADSB aircraft observations near coordinates or by callsign, registration or ICAO hex. Community receiver coverage, not schedules or fares.",
+  "icon": "plane", "color": "blue", "tool": "flights.*", "aliases": ["flights", "aircraft", "FlyItalyADSB"],
+  "abilities": ["Current aircraft observations", "Bounded nearby lookup with position age and units"],
+  "permissions": ["Workspace-only public flight observations; CC BY-SA 4.0 attribution", "No API/feed redistribution, paid upgrade, continuous tracking or passenger data"],
+  "changes": [{"version": "1.0.0", "notes": "Deferred read-only FlyItalyADSB integration with shared quotas and provider receipts."}]
+}

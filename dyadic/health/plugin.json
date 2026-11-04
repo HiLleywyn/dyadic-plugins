@@ -1,0 +1,8 @@
+{
+  "id": "health", "name": "Health & Exercise", "version": "1.0.0",
+  "description": "Public RxNorm drug references, FDA drug recalls and attributed wger exercise browsing. Medical research reuses Science.",
+  "icon": "heart", "color": "red", "tool": "health.*", "aliases": ["health", "medicine", "exercise", "fitness"],
+  "abilities": ["Drug name and identifier lookup", "US FDA drug recall records", "Public exercise categories and exercise details"],
+  "permissions": ["Read-only public reference queries; never send patient details", "No clinical decisions, prescriptions, private routines or health-account access"],
+  "changes": [{"version": "1.0.0", "notes": "Official deferred public-data tools. Retains source attribution; no paid fallback or personal wger token."}]
+}

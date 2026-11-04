@@ -1,0 +1,25 @@
+{
+  "id": "travel",
+  "name": "Travel",
+  "description": "Wikivoyage travel guides connected to existing Overture places, Valhalla routes and weather.",
+  "version": "1.0.0",
+  "icon": "plane",
+  "color": "amber",
+  "tool": "travel.*",
+  "aliases": [
+    "travel"
+  ],
+  "abilities": [
+    "Wikivoyage travel guides connected to existing Overture places, Valhalla routes and weather."
+  ],
+  "permissions": [
+    "Sends only the requested public catalog query to its provider",
+    "Read-only metadata; no purchases, playback, account changes or automatic source fetching"
+  ],
+  "changes": [
+    {
+      "version": "1.0.0",
+      "notes": "Official deferred tools, on by default; commercial providers remain gated until configured. Turn off in the Store."
+    }
+  ]
+}

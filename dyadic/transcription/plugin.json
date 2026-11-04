@@ -1,0 +1,23 @@
+{
+  "id": "transcription",
+  "name": "Transcription",
+  "description": "Write down what an audio file you attach says.",
+  "version": "1.0.0",
+  "icon": "mic",
+  "color": "coral",
+  "tool": "audio.transcribe",
+  "abilities": [
+    "Writes down what an audio file you attach says",
+    "Works with MP3, WAV, M4A, OGG, WebM and FLAC"
+  ],
+  "permissions": [
+    "Sends the audio to the transcription model",
+    "Uses credits by the minute of audio"
+  ],
+  "changes": [
+    {
+      "version": "1.0.0",
+      "notes": "Now a plugin in the Store, on for everyone. Turn it off here when you don't want it."
+    }
+  ]
+}

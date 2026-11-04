@@ -1,0 +1,25 @@
+{
+  "id": "movies",
+  "name": "Movies & Television",
+  "description": "TVMaze show discovery, cast, episode guides and schedules; films through existing Reference.",
+  "version": "1.0.0",
+  "icon": "film",
+  "color": "amber",
+  "tool": "movies.*",
+  "aliases": [
+    "movies"
+  ],
+  "abilities": [
+    "TVMaze show discovery, cast, episode guides and schedules; films through existing Reference."
+  ],
+  "permissions": [
+    "Sends only the requested public catalog query to its provider",
+    "Read-only metadata; no purchases, playback, account changes or automatic source fetching"
+  ],
+  "changes": [
+    {
+      "version": "1.0.0",
+      "notes": "Official deferred tools, on by default; commercial providers remain gated until configured. Turn off in the Store."
+    }
+  ]
+}

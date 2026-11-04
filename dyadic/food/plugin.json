@@ -1,0 +1,27 @@
+{
+  "id": "food",
+  "name": "Food & Nutrition",
+  "description": "Look up food labels, barcodes, nutrients and recipes.",
+  "version": "1.0.0",
+  "icon": "leaf",
+  "color": "amber",
+  "tool": "food.*",
+  "aliases": [
+    "food"
+  ],
+  "abilities": [
+    "Packaged-food labels and barcode lookup",
+    "USDA nutrients when a free key is configured",
+    "Recipes when a production supporter key is configured"
+  ],
+  "permissions": [
+    "Sends requested food names or barcode digits to the selected catalog",
+    "Incomplete labels cannot guarantee allergy safety; catalog licenses remain separate"
+  ],
+  "changes": [
+    {
+      "version": "1.0.0",
+      "notes": "Official deferred tools, on by default. Load only when needed; turn off in the Store."
+    }
+  ]
+}

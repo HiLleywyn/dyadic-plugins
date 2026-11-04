@@ -1,0 +1,29 @@
+{
+  "id": "browser",
+  "name": "Browser",
+  "description": "Use a real web browser: open pages, click, fill in forms and download files.",
+  "version": "1.0.0",
+  "icon": "browser",
+  "color": "violet",
+  "tool": "browser.*",
+  "aliases": ["web browser"],
+  "abilities": [
+    "Opens pages in a real browser, so sites that need scripts work, and reads each page as text",
+    "Clicks, types, chooses options, scrolls, goes back and switches tabs, checking the page after each step",
+    "Downloads files a page links to into your Workspace files, up to 20 MB each",
+    "Shows the page it is on while it works, with a picture you can tap to enlarge, and Stop to end it"
+  ],
+  "permissions": [
+    "Off until you install it",
+    "Asks you first before it submits a form, buys or pays, sends or posts, deletes, or types words that are not from your message or the page",
+    "Never types passwords: signing in to sites is not supported",
+    "Opens public web addresses only, in a fresh browser for each chat that keeps no cookies and closes after 5 idle minutes",
+    "Costs about $0.0005 per step, because it reads each page as text; a screenshot looked at by the vision model costs about $0.001 more"
+  ],
+  "changes": [
+    {
+      "version": "1.0.0",
+      "notes": "First release: off until you install it."
+    }
+  ]
+}

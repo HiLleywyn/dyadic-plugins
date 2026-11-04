@@ -1,0 +1,24 @@
+{
+  "id": "read-web-pages",
+  "name": "Web Page Reader",
+  "description": "Open and read a link you share.",
+  "version": "1.0.0",
+  "icon": "globe",
+  "color": "teal",
+  "tool": "data.web_fetch",
+  "aliases": ["page reader"],
+  "abilities": [
+    "Opens a link you give and reads the page",
+    "Follows links from search results to the source itself"
+  ],
+  "permissions": [
+    "Fetches public pages over HTTPS from Dyadic's servers",
+    "After reading outside content, only opens links from you or from earlier results"
+  ],
+  "changes": [
+    {
+      "version": "1.0.0",
+      "notes": "Now a plugin in the Store, on for everyone. Turn it off here when you don't want it."
+    }
+  ]
+}

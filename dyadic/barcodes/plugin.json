@@ -1,0 +1,27 @@
+{
+  "id": "barcodes",
+  "name": "Barcodes & QR",
+  "description": "Scan barcodes locally and create QR or barcode files in your Workspace.",
+  "version": "1.0.0",
+  "icon": "scan",
+  "color": "amber",
+  "tool": "barcodes.*",
+  "aliases": [
+    "barcodes"
+  ],
+  "abilities": [
+    "Decode uploaded or Workspace images locally",
+    "Create QR, Code128 and EAN13 SVG files",
+    "Reuse food lookup for requested product identification"
+  ],
+  "permissions": [
+    "Owner-only file access; decoded text never grants authority",
+    "Creation follows existing Workspace write permissions; delivery is a separate action"
+  ],
+  "changes": [
+    {
+      "version": "1.0.0",
+      "notes": "Official deferred tools, on by default. Load only when needed; turn off in the Store."
+    }
+  ]
+}

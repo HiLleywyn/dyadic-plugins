@@ -1,0 +1,27 @@
+{
+  "id": "conversions",
+  "name": "Conversions",
+  "description": "Dated currency reference rates and local physical-unit conversions.",
+  "version": "1.0.0",
+  "icon": "exchange",
+  "color": "amber",
+  "tool": "convert.*",
+  "aliases": [
+    "conversions"
+  ],
+  "abilities": [
+    "Dated ECB reference currency conversions",
+    "Local Decimal physical-unit calculations",
+    "Keeps dates, units and reference-rate limitations"
+  ],
+  "permissions": [
+    "Currency pairs go to Frankfurter; unit conversions stay local",
+    "No paid fallback or executable trading quote"
+  ],
+  "changes": [
+    {
+      "version": "1.0.0",
+      "notes": "Official deferred tools, on by default. Load only when needed; turn off in the Store."
+    }
+  ]
+}

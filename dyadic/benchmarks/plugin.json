@@ -1,0 +1,21 @@
+{
+  "id": "benchmarks",
+  "name": "AI Benchmarks",
+  "description": "Compare published model benchmark evidence from OpenRouter and BenchLM, with source dates and uncertainty.",
+  "version": "1.0.0",
+  "icon": "chart",
+  "color": "amber",
+  "tool": "benchmarks.*",
+  "aliases": ["benchmarks", "model rankings", "BenchLM", "OpenRouter benchmarks"],
+  "abilities": [
+    "Read OpenRouter evaluations and source-specific scores",
+    "Inspect BenchLM rankings, model identities and read allowance",
+    "Preserve provenance, methodology, evidence labels and missing data"
+  ],
+  "permissions": [
+    "Read-only requests to fixed provider endpoints using dedicated server credentials",
+    "Private queries and internal analysis; source reuse terms remain applicable",
+    "No paid evaluations, model configuration changes or inference-key fallback"
+  ],
+  "changes": [{"version": "1.0.0", "notes": "Native on-demand benchmark tools using the existing registry, provider cache and Black Box receipts."}]
+}

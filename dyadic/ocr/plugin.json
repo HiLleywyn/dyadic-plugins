@@ -1,0 +1,22 @@
+{
+  "id": "ocr",
+  "name": "OCR",
+  "description": "Read the text in scans, screenshots, receipts and photos of documents.",
+  "version": "1.0.0",
+  "icon": "scan",
+  "color": "coral",
+  "tool": "vision.read_text",
+  "abilities": [
+    "Reads scanned PDFs page by page, and screenshots, receipts, forms and diagrams",
+    "Keeps tables, lists and form fields as they are laid out",
+    "Makes scanned PDFs in your Workspace files searchable once it has read them",
+    "Remembers what it read, so reading a page again is free"
+  ],
+  "permissions": [
+    "Sends each page or image to the vision model",
+    "Uses credits for each new page, about a quarter of a cent, and only when you ask"
+  ],
+  "changes": [
+    {"version": "1.0.0", "notes": "First release."}
+  ]
+}

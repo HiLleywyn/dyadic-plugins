@@ -1,0 +1,33 @@
+{
+  "id": "forensics",
+  "name": "Forensics",
+  "version": "1.0.0",
+  "description": "Investigate public sources, organize private cases and inspect evidence, relationships and timelines.",
+  "icon": "search",
+  "color": "gray",
+  "tool": "forensics.*",
+  "aliases": [
+    "forensics",
+    "investigation",
+    "evidence",
+    "public records",
+    "infrastructure research"
+  ],
+  "abilities": [
+    "Private append-only cases and attributable evidence",
+    "Public records and passive infrastructure research",
+    "Relationship graphs, timelines and heuristic analysis",
+    "Versioned investigation workflows and downloadable reports"
+  ],
+  "permissions": [
+    "Case changes follow Workspace authorization and are private to the account",
+    "Public collection is bounded; no private networks, logins or active browser probes",
+    "Offline file analysis uses the existing read-only Code Sandbox"
+  ],
+  "changes": [
+    {
+      "version": "1.0.0",
+      "notes": "Native deferred Forensics tools using a pinned shared implementation; no MCP server setup. Standalone integrations and their data are unchanged."
+    }
+  ]
+}
