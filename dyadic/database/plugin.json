@@ -1,0 +1,32 @@
+{
+  "id": "database",
+  "name": "Database",
+  "description": "Explore and query your PostgreSQL, MySQL and SQLite databases. Reads only, unless you allow changes, and every change asks you first.",
+  "version": "1.0.0",
+  "icon": "dbQuery",
+  "color": "teal",
+  "tool": "database.*",
+  "aliases": ["db"],
+  "abilities": [
+    "Lists a database's tables and views, their columns and types, and about how many rows each has",
+    "Runs SQL for you, from lookups to totals and trends, and shows the result as a compact table",
+    "Connects to PostgreSQL and MySQL servers, or to an SQLite file in your Workspace files",
+    "Changes data (insert, update, delete, create a table) only on a connection where you allow changes"
+  ],
+  "permissions": [
+    "Off until you install it",
+    "Reads in a read-only transaction the database itself enforces: at most 200 rows and 15 seconds a statement",
+    "Changes only a connection you set to Allow changes, and asks you first every time, showing the exact SQL",
+    "Scheduled runs only read: a change there is refused",
+    "Reaches public database servers only, never your own network, private addresses or Dyadic's own database",
+    "Keeps each password encrypted, uses it only to connect to that server, and never shows it to you or the AI again",
+    "Opens SQLite files in your private, offline Code Sandbox",
+    "Free: it costs nothing beyond the conversation"
+  ],
+  "changes": [
+    {
+      "version": "1.0.0",
+      "notes": "First release: off until you install it."
+    }
+  ]
+}

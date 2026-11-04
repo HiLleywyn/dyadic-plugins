@@ -1,0 +1,25 @@
+{
+  "id": "image-generation",
+  "name": "Image Generation",
+  "description": "Create images from a description or a reference upload.",
+  "version": "1.0.0",
+  "icon": "image",
+  "color": "pink",
+  "tool": "image.generate",
+  "aliases": ["image generator"],
+  "abilities": [
+    "Makes images from a description",
+    "Changes an image you upload or one it made",
+    "Saves every image to your Images library"
+  ],
+  "permissions": [
+    "Sends the description, and any reference image, to the image model",
+    "Uses credits for each image"
+  ],
+  "changes": [
+    {
+      "version": "1.0.0",
+      "notes": "Now a plugin in the Store, on for everyone. Turn it off here when you don't want it."
+    }
+  ]
+}

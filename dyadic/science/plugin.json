@@ -1,0 +1,27 @@
+{
+  "id": "science",
+  "name": "Science & Research",
+  "description": "Search Crossref and OpenAlex publications and look up DOI metadata.",
+  "version": "1.0.0",
+  "icon": "flask",
+  "color": "amber",
+  "tool": "science.*",
+  "aliases": [
+    "science"
+  ],
+  "abilities": [
+    "Search Crossref and OpenAlex metadata",
+    "Deduplicate results by DOI",
+    "Keep discovery separate from full-paper reading"
+  ],
+  "permissions": [
+    "Sends the requested research query to selected metadata providers",
+    "Does not certify research claims or fetch full text automatically"
+  ],
+  "changes": [
+    {
+      "version": "1.0.0",
+      "notes": "Official deferred tools, on by default. Load only when needed; turn off in the Store."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "game-catalog",
+  "name": "Game Catalog",
+  "description": "CheapShark deals and Steam metadata, requirements and regional prices. Separate from games to play.",
+  "version": "1.0.0",
+  "icon": "gamepad",
+  "color": "amber",
+  "tool": "games.catalog",
+  "aliases": [
+    "game-catalog"
+  ],
+  "abilities": [
+    "CheapShark deals and Steam metadata, requirements and regional prices. Separate from games to play."
+  ],
+  "permissions": [
+    "Sends only the requested public catalog query to its provider",
+    "Read-only metadata; no purchases, playback, account changes or automatic source fetching"
+  ],
+  "changes": [
+    {
+      "version": "1.0.0",
+      "notes": "Official deferred tools, on by default; commercial providers remain gated until configured. Turn off in the Store."
+    }
+  ]
+}

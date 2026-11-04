@@ -1,0 +1,26 @@
+{
+  "id": "knowledge-search",
+  "name": "Knowledge Search",
+  "description": "Search your files, chats, projects and memory, and cite them.",
+  "version": "1.0.0",
+  "icon": "layers",
+  "color": "violet",
+  "tool": "knowledge.search",
+  "aliases": ["knowledge base"],
+  "abilities": [
+    "Finds the passages in your files, past chats, projects and memory that answer a question",
+    "Says where each one came from: the file, the chat and its date, the project or your memory",
+    "Keeps to this chat's project or library when you ask"
+  ],
+  "permissions": [
+    "Searches only your own Workspace, and only the memory the chat uses",
+    "Indexed in Dyadic at no cost and never sent to another service for it",
+    "Shares your 500 MB search index with your vector stores"
+  ],
+  "changes": [
+    {
+      "version": "1.0.0",
+      "notes": "Replaces File Search: it also searches your chats, projects and memory. If you had File Search off, this is off too."
+    }
+  ]
+}

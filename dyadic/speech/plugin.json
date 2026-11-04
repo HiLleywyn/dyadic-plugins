@@ -1,0 +1,23 @@
+{
+  "id": "speech",
+  "name": "Speech",
+  "description": "Read an answer or any text aloud as an audio file you can play.",
+  "version": "1.0.0",
+  "icon": "speaker",
+  "color": "amber",
+  "tool": "audio.speak",
+  "abilities": [
+    "Reads an answer or any text aloud",
+    "Keeps the audio in your Workspace files"
+  ],
+  "permissions": [
+    "Sends the text to the speech model",
+    "Uses credits for each clip"
+  ],
+  "changes": [
+    {
+      "version": "1.0.0",
+      "notes": "Now a plugin in the Store, on for everyone. Turn it off here when you don't want it."
+    }
+  ]
+}

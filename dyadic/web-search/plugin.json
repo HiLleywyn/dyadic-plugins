@@ -1,0 +1,25 @@
+{
+  "id": "web-search",
+  "name": "Web Search",
+  "description": "Search the web and cite sources before answering.",
+  "version": "1.0.0",
+  "icon": "search",
+  "color": "blue",
+  "tool": "data.web_search",
+  "aliases": ["web", "internet"],
+  "abilities": [
+    "Searches the web when a question needs current or checkable facts",
+    "Cites the pages it used, linked in the answer",
+    "Reads past the first results when a question needs it"
+  ],
+  "permissions": [
+    "Sends the words of each search to Dyadic's search provider",
+    "Uses credits for each search"
+  ],
+  "changes": [
+    {
+      "version": "1.0.0",
+      "notes": "Now a plugin in the Store, on for everyone. Turn it off here when you don't want it."
+    }
+  ]
+}

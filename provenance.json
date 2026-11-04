@@ -1,0 +1,168 @@
+{
+  "schema": 1,
+  "source": "Dyadic",
+  "revision": "26ea591af225ed48129a1968db78b3e8f335dc90",
+  "normalization": "LF text; no content edits to source snapshots",
+  "files": {
+    "dyadic/anime/plugin.json": {
+      "source": "catalog/plugins/anime/plugin.json",
+      "sha256": "d7fe82e5258b2ea4af87d6ad017cbf58e6cd55fde119ba00bd54325a8ec9af7c"
+    },
+    "dyadic/barcodes/plugin.json": {
+      "source": "catalog/plugins/barcodes/plugin.json",
+      "sha256": "6e642b0c684e46480f027108e84e402313827e313376c6e62050d7cf9e09fb44"
+    },
+    "dyadic/benchmarks/plugin.json": {
+      "source": "catalog/plugins/benchmarks/plugin.json",
+      "sha256": "2a233430aa460060221f2a4393cb09a8484de470a35396b34ee040894b224196"
+    },
+    "dyadic/books/plugin.json": {
+      "source": "catalog/plugins/books/plugin.json",
+      "sha256": "b9ceb102e79ed57d08ee4fcbade8a4b628541b70ce2b940ab2e370dad80289ae"
+    },
+    "dyadic/browser/plugin.json": {
+      "source": "catalog/plugins/browser/plugin.json",
+      "sha256": "0b293e8e7b7a637c23c01d4d9f5ef78f89c0227c60071f63dd36a73d594353c1"
+    },
+    "dyadic/code/plugin.json": {
+      "source": "catalog/plugins/code/plugin.json",
+      "sha256": "85007b0f87224a86edc0c50ec8baa567ad340940ce66addb9fdaac43aad56976"
+    },
+    "dyadic/computer/plugin.json": {
+      "source": "catalog/plugins/computer/plugin.json",
+      "sha256": "02da4baf1f92aa41446762f6304829fa81893bff2e1aff3603c99e9311d33eac"
+    },
+    "dyadic/conversions/plugin.json": {
+      "source": "catalog/plugins/conversions/plugin.json",
+      "sha256": "0833bf213fe944444153cf0f78052fb050a3ff294e501d7c1d9262371fea4ef2"
+    },
+    "dyadic/database/plugin.json": {
+      "source": "catalog/plugins/database/plugin.json",
+      "sha256": "70748b0434cd8f52f20dc3d89210ede31921d59a0fd5329eb50f7e714f03f2a1"
+    },
+    "dyadic/documents/plugin.json": {
+      "source": "catalog/plugins/documents/plugin.json",
+      "sha256": "334a2d57d867a103e6bb33e13140817c2fe5740bb87ceee02527c7a8ffd60279"
+    },
+    "dyadic/flights/plugin.json": {
+      "source": "catalog/plugins/flights/plugin.json",
+      "sha256": "dc6df1760c950b17ccdf65e42fcd95d7df4e8685324375ba933a1684b2b72719"
+    },
+    "dyadic/food/plugin.json": {
+      "source": "catalog/plugins/food/plugin.json",
+      "sha256": "65563236a4f56169f68b12b9d91b955f3429f5943f58dbf550743091a2b66c09"
+    },
+    "dyadic/forensics/plugin.json": {
+      "source": "catalog/plugins/forensics/plugin.json",
+      "sha256": "dcbb7914fed7bc7c57905876f552f6bae525c04a8b442ca2c0bcc4812ec1e970"
+    },
+    "dyadic/game-catalog/plugin.json": {
+      "source": "catalog/plugins/game-catalog/plugin.json",
+      "sha256": "65e7af18f1885f65b1fae769c6109cc0d3677f5037d1a72cf487c66cda8a6dd5"
+    },
+    "dyadic/github/plugin.json": {
+      "source": "catalog/plugins/github/plugin.json",
+      "sha256": "993bbcd53f62144cb968e23882b19ab18efd9a32e3dd555f054e350ba35b2df0"
+    },
+    "dyadic/google/plugin.json": {
+      "source": "catalog/plugins/google/plugin.json",
+      "sha256": "3781dff854ff117ae686ed4858acaa3b1ad34bd709b8805a6a399ff38802f310"
+    },
+    "dyadic/health/plugin.json": {
+      "source": "catalog/plugins/health/plugin.json",
+      "sha256": "45d6a4837986806ab4fbe2ccd3cd98738dc84019e83981d6b1e82e39e64c5253"
+    },
+    "dyadic/history/plugin.json": {
+      "source": "catalog/plugins/history/plugin.json",
+      "sha256": "f9aa50280095c2595524c0c741656461b84bd7924aa570ffd9d5bd8bf0149c7c"
+    },
+    "dyadic/holidays/plugin.json": {
+      "source": "catalog/plugins/holidays/plugin.json",
+      "sha256": "b29f7570f2b8c5b804de7f1fa1b41894409c8d5f4bf57a4116e6c4f4f9e3dc00"
+    },
+    "dyadic/http-request/plugin.json": {
+      "source": "catalog/plugins/http-request/plugin.json",
+      "sha256": "ddc61e0775fe3612933f742d4d19764ba2f1068ea91fb14a38961fcba74f22d1"
+    },
+    "dyadic/image-analysis/plugin.json": {
+      "source": "catalog/plugins/image-analysis/plugin.json",
+      "sha256": "64c3e938859fc5e79ec336fb629ee3ac93f22691f68b1fa002bde659e934a8a4"
+    },
+    "dyadic/image-generation/plugin.json": {
+      "source": "catalog/plugins/image-generation/plugin.json",
+      "sha256": "fff6a947dad0e98aed5763a43fc4d06855670826a09f5e73602329bee444215c"
+    },
+    "dyadic/knowledge-search/plugin.json": {
+      "source": "catalog/plugins/knowledge-search/plugin.json",
+      "sha256": "9ec83e684ab9a5820d41b82bbe62a6e33ce42eeb8f518bf810bd049d44caa89c"
+    },
+    "dyadic/memory/plugin.json": {
+      "source": "catalog/plugins/memory/plugin.json",
+      "sha256": "2334f9835db8ecfd1789995e497cb632e8792c2976b657ad5607e35f9c7158cc"
+    },
+    "dyadic/movies/plugin.json": {
+      "source": "catalog/plugins/movies/plugin.json",
+      "sha256": "879298802500fef460420579f0777485681cc9857a23a88139db3cbd7bc6bb76"
+    },
+    "dyadic/music/plugin.json": {
+      "source": "catalog/plugins/music/plugin.json",
+      "sha256": "75cfed17c7bc822338991e3a09d2ad0f402e482b2ffac4af64fab2e49001cb95"
+    },
+    "dyadic/ocr/plugin.json": {
+      "source": "catalog/plugins/ocr/plugin.json",
+      "sha256": "94e5cae3310605c3c178b8c9b9c1d85072b69b29c0da9854570c7e18d4ed0ea2"
+    },
+    "dyadic/read-web-pages/plugin.json": {
+      "source": "catalog/plugins/read-web-pages/plugin.json",
+      "sha256": "baea460d9f181432808aaf6003660328360f4ca62f9ad3e1fd89d0b00030c113"
+    },
+    "dyadic/scheduler/plugin.json": {
+      "source": "catalog/plugins/scheduler/plugin.json",
+      "sha256": "fe7155fa91f3683b32ea7619f9996ca56c229e7d2e1d249e79f2d3394f8354e4"
+    },
+    "dyadic/science/plugin.json": {
+      "source": "catalog/plugins/science/plugin.json",
+      "sha256": "ded7ced3489ab59a8010acc9f6297e0dd4db636b8e0a51ece19bf401be926172"
+    },
+    "dyadic/scripture/plugin.json": {
+      "source": "catalog/plugins/scripture/plugin.json",
+      "sha256": "d2a35c6f97c2f753792aa4e4f45a71a37dffe18fede7a8ab0c776f7c26d32875"
+    },
+    "dyadic/space/plugin.json": {
+      "source": "catalog/plugins/space/plugin.json",
+      "sha256": "d799fb1b5dc954ce53453d35583a31a541f88aa0b25d3c9eb9cc77fd2c0bf670"
+    },
+    "dyadic/speech/plugin.json": {
+      "source": "catalog/plugins/speech/plugin.json",
+      "sha256": "a013700242d5c9d465fcf035d0a4cb1abfceaf01e9a1c85a5fc8a78e805b1876"
+    },
+    "dyadic/sports/plugin.json": {
+      "source": "catalog/plugins/sports/plugin.json",
+      "sha256": "b28f259f9a07931bfd31bc41be1386c146c0ef9288fa2dad7c447e581118ebc7"
+    },
+    "dyadic/spreadsheets/plugin.json": {
+      "source": "catalog/plugins/spreadsheets/plugin.json",
+      "sha256": "03f760cabb7f3c4cf3bf33226701e2ec3dbf494c41363df75a083e14aaf7d116"
+    },
+    "dyadic/transcription/plugin.json": {
+      "source": "catalog/plugins/transcription/plugin.json",
+      "sha256": "1c7b7eee8208723f07b9dc8d28a3ef9af4787951de9ca72e2abc22e532fde639"
+    },
+    "dyadic/travel/plugin.json": {
+      "source": "catalog/plugins/travel/plugin.json",
+      "sha256": "03ca7a8724a91b15367a870c36de3a36b4be08923473952558c127a7b0c87d74"
+    },
+    "dyadic/vehicles/plugin.json": {
+      "source": "catalog/plugins/vehicles/plugin.json",
+      "sha256": "f846cc6ab2438277469b8ba1f78e46c3f63f2d203750de2abbf9ebabea6d628a"
+    },
+    "dyadic/weather/plugin.json": {
+      "source": "catalog/plugins/weather/plugin.json",
+      "sha256": "ea7d3b81d033802f2c7c4d06bae04968d7e1284f7a79e53575909c13253f3174"
+    },
+    "dyadic/web-search/plugin.json": {
+      "source": "catalog/plugins/web-search/plugin.json",
+      "sha256": "e2c427c80a343d11f63281abadd71302d09684a3408d81483baf4fe66ea0e35b"
+    }
+  }
+}

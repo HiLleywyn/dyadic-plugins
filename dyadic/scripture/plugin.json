@@ -1,0 +1,8 @@
+{
+  "id": "scripture", "name": "Scripture", "version": "1.0.0",
+  "description": "Commercially reusable Bible translations, books and verse-preserving chapter reads through Free Use Bible API.",
+  "icon": "book", "color": "amber", "tool": "religion.*", "aliases": ["religion", "bible", "scripture"],
+  "abilities": ["License-filtered translation discovery", "Book and chapter references with verse numbers and attribution"],
+  "permissions": ["Read-only public text; per-translation licenses apply", "Unknown, non-commercial and no-derivatives licenses are excluded; no Quran Foundation redistribution"],
+  "changes": [{"version": "1.0.0", "notes": "Official deferred Bible tools using the commercial-use replacement. API.Bible is not used."}]
+}

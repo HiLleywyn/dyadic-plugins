@@ -1,0 +1,29 @@
+{
+  "id": "music",
+  "name": "Music",
+  "description": "MusicBrainz artist, release and recording metadata. Hosted permission or private evaluation access required.",
+  "version": "1.0.1",
+  "icon": "music",
+  "color": "amber",
+  "tool": "music.*",
+  "aliases": [
+    "music"
+  ],
+  "abilities": [
+    "MusicBrainz artist, release and recording metadata. Hosted permission or private evaluation access required."
+  ],
+  "permissions": [
+    "Sends only the requested public catalog query to its provider",
+    "Read-only metadata; no purchases, playback, account changes or automatic source fetching"
+  ],
+  "changes": [
+    {
+      "version": "1.0.1",
+      "notes": "Private owner development/evaluation access while the MetaBrainz application is pending; general commercial access remains gated."
+    },
+    {
+      "version": "1.0.0",
+      "notes": "Official deferred tools, on by default; commercial providers remain gated until configured. Turn off in the Store."
+    }
+  ]
+}

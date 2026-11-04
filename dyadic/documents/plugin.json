@@ -1,0 +1,24 @@
+{
+  "id": "documents",
+  "name": "Documents",
+  "description": "Read, make and edit Word, PDF, Markdown and text files.",
+  "version": "1.0.0",
+  "icon": "fileText",
+  "color": "blue",
+  "tool": "documents.*",
+  "aliases": ["document"],
+  "abilities": [
+    "Reads Word documents, PDFs, Markdown and text files, and cites PDF pages",
+    "Writes reports, letters and notes as Word documents or PDFs, with headings, lists, tables and pictures",
+    "Adds to a document, or changes words in it and keeps its formatting",
+    "Saves every file in your Workspace files, ready to download"
+  ],
+  "permissions": [
+    "Reads files in your workspace and files you attach",
+    "Makes and changes files in your offline sandbox, with no network",
+    "Asks before changing files once it has read outside content"
+  ],
+  "changes": [
+    {"version": "1.0.0", "notes": "First release."}
+  ]
+}

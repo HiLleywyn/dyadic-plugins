@@ -1,0 +1,286 @@
+{
+  "schema": 1,
+  "kind": "plugins",
+  "entries": [
+    {
+      "id": "anime",
+      "name": "Anime & Manga",
+      "description": "AniList titles, airing status and adaptations. Commercial permission required; no downloads.",
+      "path": "dyadic/anime",
+      "tool": "anime.*"
+    },
+    {
+      "id": "barcodes",
+      "name": "Barcodes & QR",
+      "description": "Scan barcodes locally and create QR or barcode files in your Workspace.",
+      "path": "dyadic/barcodes",
+      "tool": "barcodes.*"
+    },
+    {
+      "id": "benchmarks",
+      "name": "AI Benchmarks",
+      "description": "Compare published model benchmark evidence from OpenRouter and BenchLM, with source dates and uncertainty.",
+      "path": "dyadic/benchmarks",
+      "tool": "benchmarks.*"
+    },
+    {
+      "id": "books",
+      "name": "Books & Comics",
+      "description": "Open Library and Google Books bibliographic search and ISBN lookup; keep editions distinct.",
+      "path": "dyadic/books",
+      "tool": "books.*"
+    },
+    {
+      "id": "browser",
+      "name": "Browser",
+      "description": "Use a real web browser: open pages, click, fill in forms and download files.",
+      "path": "dyadic/browser",
+      "tool": "browser.*"
+    },
+    {
+      "id": "code",
+      "name": "Code Sandbox",
+      "description": "Files and folders in your workspace, and an network-isolated sandbox to write and run code.",
+      "path": "dyadic/code",
+      "tool": "workspace.*"
+    },
+    {
+      "id": "computer",
+      "name": "Your Computer",
+      "description": "Let Iris run commands on your own computer through the Dyadic Runner and send you files from it: build and start Docker containers, deploy, use your tools. Pair it with one command and a code; it asks you first unless you allow it.",
+      "path": "dyadic/computer",
+      "tool": "machine.*"
+    },
+    {
+      "id": "conversions",
+      "name": "Conversions",
+      "description": "Dated currency reference rates and local physical-unit conversions.",
+      "path": "dyadic/conversions",
+      "tool": "convert.*"
+    },
+    {
+      "id": "database",
+      "name": "Database",
+      "description": "Explore and query your PostgreSQL, MySQL and SQLite databases. Reads only, unless you allow changes, and every change asks you first.",
+      "path": "dyadic/database",
+      "tool": "database.*"
+    },
+    {
+      "id": "documents",
+      "name": "Documents",
+      "description": "Read, make and edit Word, PDF, Markdown and text files.",
+      "path": "dyadic/documents",
+      "tool": "documents.*"
+    },
+    {
+      "id": "flights",
+      "name": "Flight Observations",
+      "description": "FlyItalyADSB aircraft observations near coordinates or by callsign, registration or ICAO hex. Community receiver coverage, not schedules or fares.",
+      "path": "dyadic/flights",
+      "tool": "flights.*"
+    },
+    {
+      "id": "food",
+      "name": "Food & Nutrition",
+      "description": "Look up food labels, barcodes, nutrients and recipes.",
+      "path": "dyadic/food",
+      "tool": "food.*"
+    },
+    {
+      "id": "forensics",
+      "name": "Forensics",
+      "description": "Investigate public sources, organize private cases and inspect evidence, relationships and timelines.",
+      "path": "dyadic/forensics",
+      "tool": "forensics.*"
+    },
+    {
+      "id": "game-catalog",
+      "name": "Game Catalog",
+      "description": "CheapShark deals and Steam metadata, requirements and regional prices. Separate from games to play.",
+      "path": "dyadic/game-catalog",
+      "tool": "games.catalog"
+    },
+    {
+      "id": "github",
+      "name": "GitHub",
+      "description": "Read and change your GitHub repositories: push code from your Workspace, create repositories and branches, open and merge pull requests, and manage issues. Every change asks you first.",
+      "path": "dyadic/github",
+      "tool": "github.*"
+    },
+    {
+      "id": "google",
+      "name": "Google Workspace",
+      "description": "Drive, Gmail, Calendar, Docs and Sheets as your Google account, at the level you allow each. Sending email, calendar changes and edits ask you first.",
+      "path": "dyadic/google",
+      "tool": "google.*"
+    },
+    {
+      "id": "health",
+      "name": "Health & Exercise",
+      "description": "Public RxNorm drug references, FDA drug recalls and attributed wger exercise browsing. Medical research reuses Science.",
+      "path": "dyadic/health",
+      "tool": "health.*"
+    },
+    {
+      "id": "history",
+      "name": "History",
+      "description": "Wikipedia and Wikidata historical discovery with sourced identifiers and article links.",
+      "path": "dyadic/history",
+      "tool": "history.*"
+    },
+    {
+      "id": "holidays",
+      "name": "Holidays",
+      "description": "Nager.Date and OpenHolidays public, school and regional holiday calendars.",
+      "path": "dyadic/holidays",
+      "tool": "holidays.*"
+    },
+    {
+      "id": "http-request",
+      "name": "HTTP Request",
+      "description": "Call web APIs, REST and GraphQL, with the sign-ins you save. Every change asks you first.",
+      "path": "dyadic/http-request",
+      "tool": "http.request"
+    },
+    {
+      "id": "image-analysis",
+      "name": "Image Analysis",
+      "description": "Look at an image and describe it, or answer a question about it.",
+      "path": "dyadic/image-analysis",
+      "tool": "vision.describe_image"
+    },
+    {
+      "id": "image-generation",
+      "name": "Image Generation",
+      "description": "Create images from a description or a reference upload.",
+      "path": "dyadic/image-generation",
+      "tool": "image.generate"
+    },
+    {
+      "id": "knowledge-search",
+      "name": "Knowledge Search",
+      "description": "Search your files, chats, projects and memory, and cite them.",
+      "path": "dyadic/knowledge-search",
+      "tool": "knowledge.search"
+    },
+    {
+      "id": "memory",
+      "name": "Memory",
+      "description": "Learn lasting preferences, remember what you ask, and find, change or forget it later.",
+      "path": "dyadic/memory",
+      "tool": "memory.*"
+    },
+    {
+      "id": "movies",
+      "name": "Movies & Television",
+      "description": "TVMaze show discovery, cast, episode guides and schedules; films through existing Reference.",
+      "path": "dyadic/movies",
+      "tool": "movies.*"
+    },
+    {
+      "id": "music",
+      "name": "Music",
+      "description": "MusicBrainz artist, release and recording metadata. Hosted permission or private evaluation access required.",
+      "path": "dyadic/music",
+      "tool": "music.*"
+    },
+    {
+      "id": "ocr",
+      "name": "OCR",
+      "description": "Read the text in scans, screenshots, receipts and photos of documents.",
+      "path": "dyadic/ocr",
+      "tool": "vision.read_text"
+    },
+    {
+      "id": "read-web-pages",
+      "name": "Web Page Reader",
+      "description": "Open and read a link you share.",
+      "path": "dyadic/read-web-pages",
+      "tool": "data.web_fetch"
+    },
+    {
+      "id": "scheduler",
+      "name": "Scheduler",
+      "description": "Have an agent do something on a schedule, like every Tuesday or every hour, and tell you when something happens.",
+      "path": "dyadic/scheduler",
+      "tool": "schedule.*"
+    },
+    {
+      "id": "science",
+      "name": "Science & Research",
+      "description": "Search Crossref and OpenAlex publications and look up DOI metadata.",
+      "path": "dyadic/science",
+      "tool": "science.*"
+    },
+    {
+      "id": "scripture",
+      "name": "Scripture",
+      "description": "Commercially reusable Bible translations, books and verse-preserving chapter reads through Free Use Bible API.",
+      "path": "dyadic/scripture",
+      "tool": "religion.*"
+    },
+    {
+      "id": "space",
+      "name": "Space",
+      "description": "Find NASA media, astronomy pictures and upcoming space launches.",
+      "path": "dyadic/space",
+      "tool": "space.*"
+    },
+    {
+      "id": "speech",
+      "name": "Speech",
+      "description": "Read an answer or any text aloud as an audio file you can play.",
+      "path": "dyadic/speech",
+      "tool": "audio.speak"
+    },
+    {
+      "id": "sports",
+      "name": "Sports",
+      "description": "OpenLigaDB community leagues, match schedules, results and standings. Primarily European football coverage.",
+      "path": "dyadic/sports",
+      "tool": "sports.*"
+    },
+    {
+      "id": "spreadsheets",
+      "name": "Spreadsheets",
+      "description": "Make and edit Excel and CSV files, with formulas, tables and charts.",
+      "path": "dyadic/spreadsheets",
+      "tool": "spreadsheets.*"
+    },
+    {
+      "id": "transcription",
+      "name": "Transcription",
+      "description": "Write down what an audio file you attach says.",
+      "path": "dyadic/transcription",
+      "tool": "audio.transcribe"
+    },
+    {
+      "id": "travel",
+      "name": "Travel",
+      "description": "Wikivoyage travel guides connected to existing Overture places, Valhalla routes and weather.",
+      "path": "dyadic/travel",
+      "tool": "travel.*"
+    },
+    {
+      "id": "vehicles",
+      "name": "Vehicles",
+      "description": "NHTSA VIN decoding, recalls and FuelEconomy.gov vehicle specifications and estimates.",
+      "path": "dyadic/vehicles",
+      "tool": "vehicles.*"
+    },
+    {
+      "id": "weather",
+      "name": "Weather",
+      "description": "Forecasts, official alerts and specialized weather data, with source attribution.",
+      "path": "dyadic/weather",
+      "tool": "weather.*"
+    },
+    {
+      "id": "web-search",
+      "name": "Web Search",
+      "description": "Search the web and cite sources before answering.",
+      "path": "dyadic/web-search",
+      "tool": "data.web_search"
+    }
+  ]
+}

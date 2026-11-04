@@ -1,0 +1,25 @@
+{
+  "id": "books",
+  "name": "Books & Comics",
+  "description": "Open Library and Google Books bibliographic search and ISBN lookup; keep editions distinct.",
+  "version": "1.0.0",
+  "icon": "book",
+  "color": "amber",
+  "tool": "books.*",
+  "aliases": [
+    "books"
+  ],
+  "abilities": [
+    "Open Library and Google Books bibliographic search and ISBN lookup; keep editions distinct."
+  ],
+  "permissions": [
+    "Sends only the requested public catalog query to its provider",
+    "Read-only metadata; no purchases, playback, account changes or automatic source fetching"
+  ],
+  "changes": [
+    {
+      "version": "1.0.0",
+      "notes": "Official deferred tools, on by default; commercial providers remain gated until configured. Turn off in the Store."
+    }
+  ]
+}

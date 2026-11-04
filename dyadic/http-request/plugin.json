@@ -1,0 +1,30 @@
+{
+  "id": "http-request",
+  "name": "HTTP Request",
+  "description": "Call web APIs, REST and GraphQL, with the sign-ins you save. Every change asks you first.",
+  "version": "1.0.0",
+  "icon": "exchange",
+  "color": "blue",
+  "tool": "http.request",
+  "abilities": [
+    "Calls REST and GraphQL APIs: GET, POST, PUT, PATCH and DELETE, with query parameters, headers and a JSON body",
+    "Uses connections you save here: an API's address and how it signs in (a token, a header, a username and password, or a key in the address)",
+    "Reads the answer for you: the status, JSON laid out with long lists shortened, XML or text, and the headers about paging and rate limits",
+    "Follows the API's next-page links on the same site"
+  ],
+  "permissions": [
+    "Off until you install it",
+    "Reaches public HTTPS addresses only, never your own network, private addresses or Dyadic's own services",
+    "Asks you first before every change (POST, PUT, PATCH, DELETE or a GraphQL mutation), showing the method, the full address and what it sends",
+    "Keeps each saved sign-in encrypted, sends it only to that connection's site, and never shows it to you or the AI again",
+    "Apps on your API keys get it only when a key may use your installed plugins, and then only to read: changes are refused",
+    "Up to 30 requests a minute; each waits at most 20 seconds and reads at most 1 MB",
+    "Free: it costs nothing beyond the conversation"
+  ],
+  "changes": [
+    {
+      "version": "1.0.0",
+      "notes": "First release: off until you install it."
+    }
+  ]
+}

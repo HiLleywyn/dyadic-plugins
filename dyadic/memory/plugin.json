@@ -1,0 +1,32 @@
+{
+  "id": "memory",
+  "name": "Memory",
+  "description": "Learn lasting preferences, remember what you ask, and find, change or forget it later.",
+  "version": "1.1.0",
+  "icon": "brain",
+  "color": "amber",
+  "tool": "memory.*",
+  "aliases": ["memories"],
+  "abilities": [
+    "Remembers a preference or fact when you ask it to",
+    "Learns grounded, non-sensitive preferences from your own messages when automatic learning is on",
+    "Finds what it remembers, and changes or forgets it when you say",
+    "Uses a project's or library's own memory in its chats when it has one"
+  ],
+  "permissions": [
+    "Automatic learning saves only new, non-sensitive preferences grounded in your current message; other changes ask or need approval",
+    "Nothing from a temporary chat is remembered",
+    "Agents with memory off don't use it",
+    "Use Saved Memories and Learn Automatically can be switched off in Settings > Memory"
+  ],
+  "changes": [
+    {
+      "version": "1.1.0",
+      "notes": "Account memory controls and bounded, evidenced automatic learning. Explicit saves and scoped memory remain available."
+    },
+    {
+      "version": "1.0.0",
+      "notes": "First release: memory you can search, save to, change and forget from a chat. Manage it all in Settings."
+    }
+  ]
+}
