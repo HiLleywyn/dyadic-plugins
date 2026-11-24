@@ -26,7 +26,7 @@
     },
     "dyadic/code/plugin.json": {
       "source": "catalog/plugins/code/plugin.json",
-      "sha256": "85007b0f87224a86edc0c50ec8baa567ad340940ce66addb9fdaac43aad56976"
+      "sha256": "c0b42408cc427a662815099b533b3d381249880828731bb94a0d4b57f14111d6"
     },
     "dyadic/computer/plugin.json": {
       "source": "catalog/plugins/computer/plugin.json",

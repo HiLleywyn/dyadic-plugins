@@ -1,8 +1,8 @@
 {
   "id": "code",
   "name": "Code Sandbox",
-  "description": "Files and folders in your workspace, and an network-isolated sandbox to write and run code.",
-  "version": "1.2.0",
+  "description": "Files and folders in your workspace, and a network-isolated sandbox to write and run code.",
+  "version": "1.2.1",
   "icon": "terminal",
   "color": "green",
   "tool": "workspace.*",
@@ -11,7 +11,7 @@
   ],
   "abilities": [
     "Creates, reads and changes files and folders in your workspace",
-    "Runs Python and shell scripts in an network-isolated sandbox",
+    "Runs Python and shell scripts in a network-isolated sandbox",
     "Clones public Git repositories to read",
     "Moves files between your Workspace files and its workspace: opens what you attach or receive, and sends you what it makes",
     "Unpacks and packs archives (ZIP, tar.gz, RAR, 7z and more) safely, in the sandbox: nothing leaves the folder and nothing runs"
@@ -21,6 +21,10 @@
     "Asks before deleting files, and before changing them once it has read outside content"
   ],
   "changes": [
+    {
+      "version": "1.2.1",
+      "notes": "Grammar fix in sandbox isolation descriptions."
+    },
     {
       "version": "1.2.0",
       "notes": "Clarifies server-side network isolation and adds strictly read-only workspace inspection."

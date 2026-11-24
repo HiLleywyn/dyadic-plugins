@@ -40,7 +40,7 @@
     {
       "id": "code",
       "name": "Code Sandbox",
-      "description": "Files and folders in your workspace, and an network-isolated sandbox to write and run code.",
+      "description": "Files and folders in your workspace, and a network-isolated sandbox to write and run code.",
       "path": "dyadic/code",
       "tool": "workspace.*"
     },

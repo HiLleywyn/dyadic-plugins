@@ -11,7 +11,7 @@ The complete 40-item built-in catalog at the pinned source revision. Names, desc
 | [AI Benchmarks](benchmarks/README.md) | Compare published model benchmark evidence from OpenRouter and BenchLM, with source dates and uncertainty. | `benchmarks.*` |
 | [Books & Comics](books/README.md) | Open Library and Google Books bibliographic search and ISBN lookup; keep editions distinct. | `books.*` |
 | [Browser](browser/README.md) | Use a real web browser: open pages, click, fill in forms and download files. | `browser.*` |
-| [Code Sandbox](code/README.md) | Files and folders in your workspace, and an network-isolated sandbox to write and run code. | `workspace.*` |
+| [Code Sandbox](code/README.md) | Files and folders in your workspace, and a network-isolated sandbox to write and run code. | `workspace.*` |
 | [Your Computer](computer/README.md) | Let Iris run commands on your own computer through the Dyadic Runner and send you files from it: build and start Docker containers, deploy, use your tools. Pair it with one command and a code; it asks you first unless you allow it. | `machine.*` |
 | [Conversions](conversions/README.md) | Dated currency reference rates and local physical-unit conversions. | `convert.*` |
 | [Database](database/README.md) | Explore and query your PostgreSQL, MySQL and SQLite databases. Reads only, unless you allow changes, and every change asks you first. | `database.*` |
