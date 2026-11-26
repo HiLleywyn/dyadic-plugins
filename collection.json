@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "kind": "plugins",
-  "repository": "https://git.lley.cat/r/ae86ea71-cb4d-4fc5-9ec1-803f8f303989",
+  "repository": "https://github.com/HiLleywyn/dyadic-plugins",
   "python": "3.11+",
   "dependencies": [
     "PyYAML"
