@@ -26,7 +26,7 @@ Official definitions are copied without content changes from Dyadic `26ea591af22
 
 ## Source, mirrors and licensing
 
-The [lley.cat repository](https://git.lley.cat/r/ae86ea71-cb4d-4fc5-9ec1-803f8f303989) is canonical. [HiLleywyn/dyadic-plugins](https://github.com/HiLleywyn/dyadic-plugins) is the secondary source mirror. Project-authored descriptors, documentation and tooling use [MIT](LICENSE), with upstream attribution retained where applicable.
+The [HiLleywyn/dyadic-plugins](https://github.com/HiLleywyn/dyadic-plugins) GitHub repository is canonical. [lley.cat](https://git.lley.cat/r/ae86ea71-cb4d-4fc5-9ec1-803f8f303989) is its synchronized mirror. Project-authored descriptors, documentation and tooling use [MIT](LICENSE), with upstream attribution retained where applicable.
 
 ## Capability descriptors, not a second runtime
 
@@ -51,4 +51,4 @@ For a runtime capability change, update the authoritative Dyadic tool/manifest o
 
 ## Developing against Dyadic
 
-Use [Dyadic Developers](https://dyadic.app/developers/) for actual API schemas, SDKs and integration guides. [Skills](https://github.com/HiLleywyn/dyadic-skills) supply reusable procedures; [agents](https://github.com/HiLleywyn/dyadic-agents) supply identities and delegated roles. [Matrix](https://dyadic.app/developers/matrix/) supplies durable orchestration, with [the engine source](https://github.com/HiLleywyn/dyadic-matrix) available for inspection. GitHub is a secondary source location, and its Actions are disabled for these mirrors.
+Use [Dyadic Developers](https://dyadic.app/developers/) for actual API schemas, SDKs and integration guides. [Skills](https://github.com/HiLleywyn/dyadic-skills) supply reusable procedures; [agents](https://github.com/HiLleywyn/dyadic-agents) supply identities and delegated roles. [Matrix](https://dyadic.app/developers/matrix/) supplies durable orchestration, with [the engine source](https://github.com/HiLleywyn/dyadic-matrix) available for inspection. `lley.cat` is a synchronized mirror of this repository, and both GitHub Actions and `lley.cat` Actions validate pushes.
