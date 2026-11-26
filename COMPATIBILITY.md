@@ -1,9 +1,11 @@
 # Dyadic Compatibility
 
-[Collection](README.md) · [Detailed compatibility report](https://git.lley.cat/r/dadd28be-7d91-432f-beb0-00d285e8f02b?path=COMPATIBILITY.md&ref=store) · [Delivery report](https://git.lley.cat/r/dadd28be-7d91-432f-beb0-00d285e8f02b?path=REPORT.md&ref=store)
+[Plugins](README.md) · [Agent import limits](https://github.com/HiLleywyn/dyadic-agents/blob/main/COMPATIBILITY.md)
 
-The 40 folders are default plugin descriptors. They map to existing Dyadic server tool switches; they are not executable plugin installers. The skill/agent importer cannot install a provider backend from these manifests.
+The 40 folders are descriptors for tools that already exist in the Dyadic server. Each `plugin.json` maps to a built-in tool switch; Dyadic's Store loads its own copy from `catalog/plugins/` at startup.
 
-The inspected product revision is `26ea591af225ed48129a1968db78b3e8f335dc90`. Its URL resolver rejects the query parameters in normal git.lley.cat folder/raw links. Use reviewed local ZIP uploads for skills/agents until that product gap is addressed. Publishing here does not synchronize the product catalog, enable plugins or update installed account copies.
+- **Not installable code.** Dyadic's package importer accepts skills and agents. It cannot install a provider backend or executable plugin from these manifests, and the built archives are distribution bundles only.
+- **No catalog sync.** A push here does not change Dyadic's Store, enable a plugin or update installed account copies. Runtime changes start in the Dyadic repository.
+- **Availability is per account.** A plugin's tools still depend on its account switch, any provider or connector setup, and the platform's approval and billing policy.
 
-This repository includes offline checks, deterministic builds, JUnit results and a custom Actions template. Its hosted activation gate was disabled when inspected; a PAT cannot activate it. See the delivery report for actual validation results and limits.
+`tools/verify_dyadic.py` in [dyadic-agents](https://github.com/HiLleywyn/dyadic-agents) can compare these descriptors with the switches a Dyadic checkout surfaces.
